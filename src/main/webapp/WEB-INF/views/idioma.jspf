@@ -1,0 +1,4 @@
+<%-- Fragmento incluido estáticamente por las vistas: fija el locale a partir de la
+     cookie "idiomaPreferido" (objeto EL implícito cookie) y carga el ResourceBundle --%>
+<fmt:setLocale value="${not empty cookie.idiomaPreferido ? cookie.idiomaPreferido.value : 'es'}"/>
+<fmt:setBundle basename="messages"/>

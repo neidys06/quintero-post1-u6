@@ -1,0 +1,22 @@
+/* Estilos compartidos por todas las vistas del gestor */
+body { font-family: Arial, sans-serif; max-width: 860px; margin: 2rem auto; color: #222; }
+h1 { color: #065A82; }
+a { color: #1C7293; }
+table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+th, td { border: 1px solid #ccc; padding: 8px 12px; text-align: left; }
+th { background: #065A82; color: white; }
+.error { color: #C62828; background: #FFEBEE; padding: 8px; }
+.completada { text-decoration: line-through; color: #808080; }
+form label { display: block; margin: 0.75rem 0; }
+form input[type=text], form input[type=password], form select {
+    display: block; margin-top: 0.25rem; padding: 6px 8px; width: 320px;
+    border: 1px solid #aaa; border-radius: 4px;
+}
+button { padding: 6px 14px; margin-right: 8px; }
+
+/* Parte 2: cabecera con sesión y validación por campo */
+.cabecera { border-bottom: 1px solid #ccc; margin-bottom: 1rem; padding-bottom: 0.5rem; }
+.saludo { color: #21295C; font-weight: bold; }
+.alert-error { background: #FFEBEE; border: 1px solid #C62828; padding: 8px 12px; }
+.input-error { border-color: #C62828 !important; background: #FFF5F5; }
+.campo-error { color: #C62828; font-size: 0.85rem; display: block; margin-top: 0.2rem; }
